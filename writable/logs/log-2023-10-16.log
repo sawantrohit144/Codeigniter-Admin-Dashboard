@@ -1,0 +1,970 @@
+CRITICAL - 2023-10-16 06:18:48 --> There is no data to update.
+in SYSTEMPATH\BaseModel.php on line 1724.
+ 1 SYSTEMPATH\BaseModel.php(1724): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+ 2 SYSTEMPATH\BaseModel.php(916): CodeIgniter\BaseModel->transformDataToArray(null, 'update')
+ 3 SYSTEMPATH\Model.php(776): CodeIgniter\BaseModel->update([...], null)
+ 4 APPPATH\Controllers\Dashboard.php(50): CodeIgniter\Model->update('1')
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->editcategory('1')
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 06:30:24 --> syntax error, unexpected token ";", expecting ")"
+in APPPATH\Views\admin\categories.php on line 29.
+ 1 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/categories', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(24): view('admin/categories', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->categories()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 06:31:00 --> Invalid file: "admin/editcategory.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(214): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/editcategory.php')
+ 2 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/editcategory', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(51): view('admin/editcategory')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updatecategory()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 06:33:22 --> Too few arguments to function App\Controllers\Dashboard::updatecategory(), 0 passed in C:\xampp\htdocs\login\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\Dashboard.php on line 47.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updatecategory()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 06:46:32 --> Undefined variable $category
+in APPPATH\Views\admin\updatecategory.php on line 11.
+ 1 APPPATH\Views\admin\updatecategory.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updatecategory.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updatecategory.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updatecategory', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(60): view('admin/updatecategory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updatecategory('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 06:49:01 --> Undefined variable $data
+in APPPATH\Views\admin\updatecategory.php on line 11.
+ 1 APPPATH\Views\admin\updatecategory.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updatecategory.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updatecategory.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updatecategory', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(60): view('admin/updatecategory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updatecategory('7')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 07:38:43 --> Undefined variable $error
+in APPPATH\Views\admin\updatecategory.php on line 19.
+ 1 APPPATH\Views\admin\updatecategory.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updatecategory.php', 19)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updatecategory.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updatecategory', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(77): view('admin/updatecategory', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updatecategory('5')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:09:21 --> Undefined variable $data
+in APPPATH\Controllers\Dashboard.php on line 50.
+ 1 APPPATH\Controllers\Dashboard.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Controllers\\Dashboard.php', 50)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addcategories()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:10:12 --> view(): Argument #2 ($data) must be of type array, string given, called in C:\xampp\htdocs\login\app\Controllers\Dashboard.php on line 51
+in SYSTEMPATH\Common.php on line 1176.
+ 1 APPPATH\Controllers\Dashboard.php(51): view('admin/addcategories', '')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addcategories()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:22:46 --> Undefined array key "categories"
+in APPPATH\Views\admin\products.php on line 27.
+ 1 APPPATH\Views\admin\products.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categories"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 27)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:30:02 --> Undefined array key "categories"
+in APPPATH\Views\admin\products.php on line 32.
+ 1 APPPATH\Views\admin\products.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categories"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 32)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:46:15 --> Undefined variable $ProductModel
+in APPPATH\Controllers\Dashboard.php on line 92.
+ 1 APPPATH\Controllers\Dashboard.php(92): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $ProductModel', 'C:\\xampp\\htdocs\\login\\app\\Controllers\\Dashboard.php', 92)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:47:13 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:48:02 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 31.
+ 1 APPPATH\Views\admin\products.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 31)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:48:30 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:50:04 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:50:08 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:50:18 --> Attempt to read property "id" on array
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 08:50:52 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 09:44:29 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 09:50:55 --> mysqli_sql_exception: Unknown table 'ecommerce.products' in C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\login\app\Controllers\Dashboard.php(95): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\login\system\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\login\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-16 09:50:55 --> Unknown table 'ecommerce.products'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `products`.*, `categories`.`name` as `category_name`
+FROM `product`
+JOIN `categories` ON `categories`.`id` = `products`.`category_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Dashboard.php(95): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 09:51:44 --> mysqli_sql_exception: Unknown column 'categories.name' in 'field list' in C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(306): mysqli->query('SELECT `product...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `product...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `product...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `product...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\login\app\Controllers\Dashboard.php(95): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\login\system\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\login\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-10-16 09:51:44 --> Unknown column 'categories.name' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1615): CodeIgniter\Database\BaseConnection->query('SELECT `product`.*, `categories`.`name` as `categories`
+FROM `product`
+JOIN `categories` ON `categories`.`id` = `product`.`categories_id`', [], false)
+ 2 SYSTEMPATH\Model.php(237): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(624): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Dashboard.php(95): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 09:52:02 --> Undefined variable $data
+in APPPATH\Controllers\Dashboard.php on line 111.
+ 1 APPPATH\Controllers\Dashboard.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Controllers\\Dashboard.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 09:58:15 --> Undefined variable $db
+in APPPATH\Models\ProductModel.php on line 26.
+ 1 APPPATH\Models\ProductModel.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'C:\\xampp\\htdocs\\login\\app\\Models\\ProductModel.php', 26)
+ 2 APPPATH\Controllers\Dashboard.php(92): App\Models\ProductModel->getProductsWithCategories()
+ 3 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 09:59:13 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:00:15 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:00:22 --> Undefined array key "id"
+in APPPATH\Views\admin\products.php on line 30.
+ 1 APPPATH\Views\admin\products.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php', 30)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\products.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/products', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(108): view('admin/products', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:05:27 --> syntax error, unexpected token "public", expecting end of file
+in APPPATH\Models\ProductModel.php on line 26.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(285): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\login\\app\\Models\\ProductModel.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(263): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\ProductModel')
+ 3 APPPATH\Controllers\Dashboard.php(91): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\ProductModel')
+ 4 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 5 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:05:53 --> Undefined variable $data
+in APPPATH\Controllers\Dashboard.php on line 111.
+ 1 APPPATH\Controllers\Dashboard.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Controllers\\Dashboard.php', 111)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->product()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:17:15 --> Undefined variable $data
+in APPPATH\Controllers\Dashboard.php on line 104.
+ 1 APPPATH\Controllers\Dashboard.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Controllers\\Dashboard.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:18:31 --> Undefined variable $data
+in APPPATH\Controllers\Dashboard.php on line 104.
+ 1 APPPATH\Controllers\Dashboard.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Controllers\\Dashboard.php', 104)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:32:44 --> Class "App\Controllers\CategoriesModel" not found
+in APPPATH\Controllers\Dashboard.php on line 104.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:33:24 --> Undefined array key "categories"
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 APPPATH\Views\admin\addproduct.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categories"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(109): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:36:06 --> Undefined array key "categories"
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 APPPATH\Views\admin\addproduct.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categories"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(109): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:36:29 --> Undefined array key "categories"
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 APPPATH\Views\admin\addproduct.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categories"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(109): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:36:31 --> Undefined array key "categories"
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 APPPATH\Views\admin\addproduct.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categories"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(109): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:37:30 --> Undefined array key "categories"
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 APPPATH\Views\admin\addproduct.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categories"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(109): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:37:45 --> Undefined array key "categories"
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 APPPATH\Views\admin\addproduct.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "categories"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(109): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 10:39:51 --> Attempt to read property "id" on array
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 APPPATH\Views\admin\addproduct.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(109): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 11:04:23 --> mysqli_sql_exception: Column 'image' cannot be null in C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\login\app\Controllers\Dashboard.php(124): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\login\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-16 11:04:23 --> Column 'image' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`categories_id`, `mrp`, `price`, `qty`, `image`, `description`, `meta_title`, `meta_keyword`) VALUES (:categories_id:, :mrp:, :price:, :qty:, :image:, :description:, :meta_title:, :meta_keyword:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Dashboard.php(124): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 11:05:18 --> mysqli_sql_exception: Column 'image' cannot be null in C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\login\app\Controllers\Dashboard.php(124): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\login\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-16 11:05:18 --> Column 'image' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`categories_id`, `mrp`, `price`, `qty`, `image`, `description`, `meta_title`, `meta_keyword`) VALUES (:categories_id:, :mrp:, :price:, :qty:, :image:, :description:, :meta_title:, :meta_keyword:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Dashboard.php(124): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 11:05:26 --> mysqli_sql_exception: Column 'image' cannot be null in C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\login\app\Controllers\Dashboard.php(124): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\login\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-16 11:05:26 --> Column 'image' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`categories_id`, `mrp`, `price`, `qty`, `image`, `description`, `meta_title`, `meta_keyword`) VALUES (:categories_id:, :mrp:, :price:, :qty:, :image:, :description:, :meta_title:, :meta_keyword:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Dashboard.php(124): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 11:05:55 --> mysqli_sql_exception: Column 'image' cannot be null in C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\login\app\Controllers\Dashboard.php(124): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\login\system\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\login\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-10-16 11:05:55 --> Column 'image' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`categories_id`, `mrp`, `price`, `qty`, `image`, `description`, `meta_title`, `meta_keyword`) VALUES (:categories_id:, :mrp:, :price:, :qty:, :image:, :description:, :meta_title:, :meta_keyword:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\Dashboard.php(124): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 11:07:32 --> mysqli_sql_exception: Column 'image' cannot be null in C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\Dashboard.php(124): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-16 11:07:32 --> Column 'image' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`categories_id`, `mrp`, `price`, `qty`, `image`, `description`, `meta_title`, `meta_keyword`) VALUES (:categories_id:, :mrp:, :price:, :qty:, :image:, :description:, :meta_title:, :meta_keyword:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Dashboard.php(124): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 11:07:37 --> mysqli_sql_exception: Column 'image' cannot be null in C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\Dashboard.php(124): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-16 11:07:37 --> Column 'image' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`categories_id`, `mrp`, `price`, `qty`, `image`, `description`, `meta_title`, `meta_keyword`) VALUES (:categories_id:, :mrp:, :price:, :qty:, :image:, :description:, :meta_title:, :meta_keyword:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Dashboard.php(124): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-10-16 11:21:14 --> mysqli_sql_exception: Column 'short_desc' cannot be null in C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\login\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\login\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\login\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\login\system\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\login\system\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\login\system\BaseModel.php(788): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\login\system\Model.php(715): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\login\system\BaseModel.php(698): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\login\app\Controllers\Dashboard.php(123): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\login\system\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+#10 C:\xampp\htdocs\login\system\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#11 C:\xampp\htdocs\login\system\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\login\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2023-10-16 11:21:14 --> Column 'short_desc' cannot be null
+in SYSTEMPATH\Database\BaseConnection.php on line 646.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2308): CodeIgniter\Database\BaseConnection->query('INSERT INTO `product` (`categories_id`, `name`, `mrp`, `price`, `qty`, `short_desc`, `description`, `meta_title`, `meta_keyword`) VALUES (:categories_id:, :name:, :mrp:, :price:, :qty:, :short_desc:, :description:, :meta_title:, :meta_keyword:)', [...], false)
+ 2 SYSTEMPATH\Model.php(319): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(715): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(698): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Dashboard.php(123): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 8 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:44:57 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(143): view('admin/addproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:47:20 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(140): view('admin/addproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:47:28 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(140): view('admin/addproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:54:26 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(142): view('admin/addproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:58:54 --> Undefined variable $data
+in APPPATH\Views\admin\addproduct.php on line 13.
+ 1 APPPATH\Views\admin\addproduct.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(142): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:59:00 --> Undefined variable $data
+in APPPATH\Views\admin\addproduct.php on line 13.
+ 1 APPPATH\Views\admin\addproduct.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(142): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 11:59:06 --> Undefined variable $data
+in APPPATH\Views\admin\addproduct.php on line 13.
+ 1 APPPATH\Views\admin\addproduct.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(142): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:03:14 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\addproduct.php on line 15.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(142): view('admin/addproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:03:44 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\addproduct.php on line 15.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(142): view('admin/addproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:15:18 --> Array to string conversion
+in APPPATH\Views\admin\addproduct.php on line 15.
+ 1 APPPATH\Views\admin\addproduct.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(142): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:15:31 --> Array to string conversion
+in APPPATH\Views\admin\addproduct.php on line 15.
+ 1 APPPATH\Views\admin\addproduct.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(142): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:15:40 --> Array to string conversion
+in APPPATH\Views\admin\addproduct.php on line 15.
+ 1 APPPATH\Views\admin\addproduct.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php', 15)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\addproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(142): view('admin/addproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:33:30 --> syntax error, unexpected token "echo", expecting "function" or "const"
+in APPPATH\Controllers\Dashboard.php on line 146.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('dashboard/product', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('dashboard/product')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/product')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:34:58 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Dashboard.php on line 147.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('dashboard/product', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('dashboard/product')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/product')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:35:53 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Dashboard.php on line 147.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('dashboard/product', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('dashboard/product')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/product')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:36:05 --> syntax error, unexpected token "public"
+in APPPATH\Controllers\Dashboard.php on line 149.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('dashboard/product', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('dashboard/product')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/product')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:38:18 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(143): view('admin/addproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:42:53 --> Cannot access offset of type string on string
+in APPPATH\Views\admin\addproduct.php on line 14.
+ 1 SYSTEMPATH\View\View.php(226): include()
+ 2 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/addproduct', [], true)
+ 4 APPPATH\Controllers\Dashboard.php(143): view('admin/addproduct', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->addproduct()
+ 6 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2023-10-16 12:46:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2023-10-16 12:56:56 --> Undefined variable $category
+in APPPATH\Views\admin\updateproduct.php on line 11.
+ 1 APPPATH\Views\admin\updateproduct.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $category', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 11)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(146): view('admin/updateproduct')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 12:58:13 --> Undefined variable $data
+in APPPATH\Views\admin\updateproduct.php on line 13.
+ 1 APPPATH\Views\admin\updateproduct.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(146): view('admin/updateproduct')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:03:32 --> Call to undefined method App\Controllers\Dashboard::getCategoriesData()
+in APPPATH\Controllers\Dashboard.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:04:45 --> Call to undefined method App\Controllers\Dashboard::category()
+in APPPATH\Controllers\Dashboard.php on line 172.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('1')
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:05:29 --> Undefined variable $data
+in APPPATH\Views\admin\updateproduct.php on line 13.
+ 1 APPPATH\Views\admin\updateproduct.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(148): view('admin/updateproduct')
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:06:18 --> syntax error, unexpected token ",", expecting ")"
+in APPPATH\Controllers\Dashboard.php on line 149.
+ 1 SYSTEMPATH\Router\Router.php(512): CodeIgniter\Router\AutoRouter->getRoute('dashboard/updateproduct/1', 'get')
+ 2 SYSTEMPATH\Router\Router.php(208): CodeIgniter\Router\Router->autoRoute('dashboard/updateproduct/1')
+ 3 SYSTEMPATH\CodeIgniter.php(800): CodeIgniter\Router\Router->handle('dashboard/updateproduct/1')
+ 4 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:08:42 --> Undefined array key "name"
+in APPPATH\Views\admin\updateproduct.php on line 20.
+ 1 APPPATH\Views\admin\updateproduct.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(149): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:12:15 --> Undefined array key "name"
+in APPPATH\Views\admin\updateproduct.php on line 20.
+ 1 APPPATH\Views\admin\updateproduct.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(149): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:12:44 --> Undefined array key "name"
+in APPPATH\Views\admin\updateproduct.php on line 20.
+ 1 APPPATH\Views\admin\updateproduct.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(182): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:12:47 --> Undefined array key "name"
+in APPPATH\Views\admin\updateproduct.php on line 20.
+ 1 APPPATH\Views\admin\updateproduct.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(182): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:14:59 --> Undefined array key "name"
+in APPPATH\Views\admin\updateproduct.php on line 20.
+ 1 APPPATH\Views\admin\updateproduct.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(182): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:16:36 --> Undefined array key "name"
+in APPPATH\Views\admin\updateproduct.php on line 20.
+ 1 APPPATH\Views\admin\updateproduct.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(182): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:17:08 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\updateproduct.php on line 14.
+ 1 APPPATH\Views\admin\updateproduct.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(168): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:17:25 --> Trying to access array offset on value of type null
+in APPPATH\Views\admin\updateproduct.php on line 14.
+ 1 APPPATH\Views\admin\updateproduct.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to access array offset on value of type null', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 14)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(168): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('2')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:31:56 --> Undefined array key "name"
+in APPPATH\Views\admin\updateproduct.php on line 20.
+ 1 APPPATH\Views\admin\updateproduct.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(179): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:32:35 --> Undefined array key "name"
+in APPPATH\Views\admin\updateproduct.php on line 20.
+ 1 APPPATH\Views\admin\updateproduct.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 20)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(179): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:33:08 --> Undefined array key "name"
+in APPPATH\Views\admin\updateproduct.php on line 21.
+ 1 APPPATH\Views\admin\updateproduct.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 21)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(179): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:34:20 --> Undefined variable $data
+in APPPATH\Views\admin\updateproduct.php on line 13.
+ 1 APPPATH\Views\admin\updateproduct.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php', 13)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\xampp\\htdocs\\login\\app\\Views\\admin\\updateproduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('admin/updateproduct', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(172): view('admin/updateproduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('1')
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-10-16 13:35:59 --> Undefined variable $data
+in APPPATH\Controllers\Dashboard.php on line 148.
+ 1 APPPATH\Controllers\Dashboard.php(148): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $data', 'C:\\xampp\\htdocs\\login\\app\\Controllers\\Dashboard.php', 148)
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\Dashboard->updateproduct('2')
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
